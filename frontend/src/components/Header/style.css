@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: white;
+    padding: 10px 0;
+    /* border-bottom: 1px solid #333; */
+    box-shadow: 0 0 8px .1px #333;
+    position: sticky;
+
+}
+
+
+
+.headerMenu a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #565673;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+}
+
+.headerMenu a:hover{
+    color: #5f9ea0;
+}

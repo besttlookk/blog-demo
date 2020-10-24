@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.formContainer{
+    width: 70%;
+    height: 50vh;
+}
+
+.formWrapper{
+    width: 60%;
+    margin: 0 auto;
+    /* border: 1px solid #333; */
+    padding: 10px;
+}
+
+.form{
+    /* border: 1px solid red; */
+    padding: 10px
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+

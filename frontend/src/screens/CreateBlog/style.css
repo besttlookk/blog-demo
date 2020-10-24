@@ -1,0 +1,12 @@
+.createContainer{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    border: 2px solid red;
+
+}
+
+.createLeftMenu{
+    width: 70%;
+    border: 2px solid green
+}

@@ -1,0 +1,65 @@
+#detailLeftMenu{
+    width: 70%;
+    position: relative;
+}
+
+#detailDelete{
+    position: absolute;
+    right: -10px;
+    top: -10px
+}
+/* 
+#detailEdit{
+
+} */
+
+#blogDetailsImageContainer{
+    width: 100%;
+    padding: 10px;
+}
+
+#blogDetailsContent{
+    margin: 10px;
+    padding: 0 6px;
+
+}
+
+#blogDetailsContent h3{
+    font-weight: 400;
+    color: #333;
+}
+
+#blogDetailsContent p{
+    font-size: 15px;
+    color: "#6c6c6c";
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.detailRighMenu{
+    width: 28%;
+}
+
+
+#commentWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#commentImgDiv{
+    width: 15%;
+}
+
+#commentImgDiv img{
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+#commentContentDiv{
+    width: 84%;
+    border: 1px soild red;
+}
+

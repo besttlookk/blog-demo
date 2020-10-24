@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #e9eaed;
+  font-family: 'Oswald', sans-serif;
+}
+
+.App{
+  width: 90%;
+  margin: 0 auto;
+
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.linkTag{
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkTag.author{
+  color: orange;
+}
+
+.linkTag:hover{
+  text-decoration: underline;
+}
+
+.hr{
+  width: 80%;
+  margin: auto;
+}
+
+.btn{
+  padding: 10px 30px;
+  font-size: 1rem;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  border: 3px solid white;
+}
+
+.profileImageContainer{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.image{
+  height: 100%;
+  width: 100%;
+}
+
+.personalBio{
+  font-size: 14px;
+  color: #565673;
+  font-weight: 300;
+}
+
+
+
+.cardHeader{
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #333 ;
+}
+
+.blogHeader{
+  text-align: center;
+}
+.blogCategory{
+  display: block;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.blogTitle{
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.postedBy{
+  font-size: 15px;
+  font-style: italic;
+  padding: 10px 0;
+  display: block;
+  color: #6c6c6c;
+}

@@ -1,0 +1,10 @@
+#heroContainer{
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heroDiv{
+    width: 33%;
+    border: 2px solid red;
+}

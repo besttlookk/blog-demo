@@ -1,0 +1,113 @@
+.blogPostContainer{
+    width: 70%;
+}
+
+.blogHeader{
+    text-align: center;
+}
+.blogCategory{
+    display: block;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.postTitle{
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.postedBy{
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px 0;
+    display: block;
+    color: #6c6c6c;
+}
+
+.postImageContainer{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+/* .postContent{
+    margin: 10px;
+    border: 2px solid white;
+
+} */
+
+
+
+.linkSpan{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    
+
+}
+
+
+.blogLink{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 15px;
+    background-color: white;
+    color: #333;
+    border: .1px solid #b1aeae;
+
+}
+
+.blogLink:hover{
+    color: white;
+    background-color: #333;
+    border: .1px solid #b1aeae;
+    cursor: pointer;
+
+}
+
+#homeBlogBody{
+    display: flex;
+    justify-content: space-between;
+}
+
+#homeBlogImgContainer{
+    width: 20%;
+    height: 250px;
+}
+
+#homeBlogImgContainer img{
+    padding: 10px;
+}
+
+#homeBlogContent{
+    width: 70%;
+    margin: auto;
+}
+
+#homeBlogContent h3{
+    font-weight: 400;
+    color: #333;
+}
+
+#homeBlogContent p{
+    font-size: 14px;
+    color: "#6c6c6c";
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.cardDiv{
+    position: relative;
+}
+
+#homeDelete{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+

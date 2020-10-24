@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+#userBlogsContainer{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#userBlogsLeftMenu{
+    width: 20%;
+    height: 500px;
+}
+#userBlogsRightMenu{
+    width: 65%;
+}
+
+#userBlogsImgDiv{
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+}
+
+#userBlogsBodyDiv1{
+    width: 74%;
+    height: 100%;
+    padding: 5px;
+}
+
+#userBlogsBodyDiv2{
+    padding: 10px 20px;
+}
+
+.userBlogsBodyDiv h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.userBlogsBodyDiv span{
+    text-transform: capitalize;
+    color: #565673;
+    font-size: 10px;
+}
+
+.userBlogsBodyDiv p{
+    font-size: 13px;
+    color: #565673;
+    margin-top: 5px;
+}
+
+.userBlogsBodyDiv a{
+    text-decoration: none;
+    color: black;
+}
+.userBlogsBodyDiv p a{
+    color: #565673;
+    margin-left: 4px;
+}
+
+

@@ -1,0 +1,43 @@
+#modalBody{
+    text-align: center;
+}
+
+#modalBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+#confirm{
+    background-color: #46A049;
+    
+}
+
+#confirm:hover{
+    background-color: white;
+    color: #46A049;
+    border: 3px solid #46A049;
+}
+
+#cancle{
+    background-color: #E55A54;
+    color: white;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+#cancle:hover{
+    background-color: white;
+    color:  #E55A54;
+    border: 3px solid  #E55A54;
+}
+
+#deleteIcon{
+    border: none;
+    background-color: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+#deleteIcon:hover{
+    transform: scale(1.5, 1.5);
+}
